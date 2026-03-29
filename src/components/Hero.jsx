@@ -65,7 +65,7 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="visible"
-          className="font-cormorant text-[clamp(2.6rem,7vw,5.5rem)] font-light leading-[1.02] tracking-[-0.02em] text-cream"
+          className="font-cormorant text-[clamp(2.6rem,7vw,5.5rem)] font-light leading-[1.02] tracking-[-0.02em] text-cream text-center"
         >
           Barocco Creations
         </motion.h1>
@@ -75,13 +75,13 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="visible"
-          className="mt-5 flex items-center gap-4"
+          className="mt-5 flex flex-col md:flex-row items-center justify-center gap-3 md:gap-4 w-full"
         >
-          <span className="h-px w-8 bg-sand/30" />
-          <p className="font-jost text-[clamp(0.7rem,1.5vw,0.85rem)] font-light uppercase tracking-[0.35em] text-slate/80">
+          <span className="hidden md:block h-px w-8 bg-sand/30" />
+          <p className="font-jost text-[clamp(0.7rem,1.5vw,0.85rem)] font-light uppercase tracking-[0.35em] text-slate/80 text-center leading-relaxed max-w-[280px] md:max-w-none mx-auto">
             Graphic Design &amp; Full-Stack Development
           </p>
-          <span className="h-px w-8 bg-sand/30" />
+          <span className="hidden md:block h-px w-8 bg-sand/30" />
         </motion.div>
 
         <motion.p
@@ -89,7 +89,7 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="visible"
-          className="mt-5 font-pinyon text-[clamp(1.3rem,3vw,2rem)] text-sand/50"
+          className="mt-5 font-pinyon text-[clamp(1.3rem,3vw,2rem)] text-sand/50 text-center"
         >
           Art meets function
         </motion.p>
