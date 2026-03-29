@@ -14,7 +14,7 @@ import miraEnvelope from "../assets/projects/mira-skincare/envelope.jpg";
 import miraProducts from "../assets/projects/mira-skincare/products.jpg";
 import miraLogovariations from "../assets/projects/mira-skincare/logovariations.jpg";
 import miraColors from "../assets/projects/mira-skincare/colors.jpg";
-import miraPattern from "../assets/projects/mira-skincare/pattern.jpg";
+
 
 const projects = [
   {
@@ -50,7 +50,7 @@ const projects = [
     link: null,
     images: {
       hero: miraHero,
-      gallery: [miraProducts, miraBusinesscard, miraEnvelope, miraLogovariations, miraColors, miraPattern],
+      gallery: [miraProducts, miraBusinesscard, miraEnvelope, miraLogovariations, miraColors],
     },
   },
   {
